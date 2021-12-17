@@ -102,14 +102,18 @@ li {
 
 .middle-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 
 .bottom-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
