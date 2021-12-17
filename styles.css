@@ -19,6 +19,12 @@ p {
     font-size: .8rem;
 }
 
+.subtitle {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
 li {
     font-size: .8rem;
 }
@@ -102,11 +108,27 @@ li {
 
 .middle-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 0px;
+    background-color: whitesmoke;
+}
+
+.minnows-treats-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.minnows-treat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .bottom-section {
