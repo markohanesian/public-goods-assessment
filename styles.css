@@ -22,6 +22,10 @@ body {
     padding: 5px;
 }
 
+#hamburger-menu-icon {
+    font-size: 2.5rem;
+}
+
 .menu-middle {
     padding: 5px;
 }
@@ -32,6 +36,15 @@ body {
 
 .menu-right {
     padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#search-icon {
+    font-size: 2.5rem;
+    margin-right: 15px;
 }
 
 .top-section {
